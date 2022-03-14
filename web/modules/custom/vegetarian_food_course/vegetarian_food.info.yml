@@ -1,0 +1,13 @@
+name: 'Vegetarian Food Course'
+description: 'Create a registration form for the course'
+package: Nian
+
+type: module
+core_version_requirement: ^8.8 || ^9
+
+# project: vegetarian_food_course
+#   'interface traslation project': vegetarian_food_course
+#   'interface traslation server pattern': modules/custom/vegetarian_food_course-%language
+
+# dependencies: 
+#   - node

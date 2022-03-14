@@ -1,0 +1,6 @@
+name: Nuevo Modulo
+description: "Modulo de ejemplo"
+package: Nian
+
+type: module
+core_version_requirement: ^8.8.0 || ^9.0

@@ -1,0 +1,11 @@
+custom_form_libraries:
+  version: 1.x
+
+  css:
+    theme:
+      css/custom_form.css: {}
+
+  js:
+    js/custom_form.js: {}
+  dependencies:
+    - core/jquery

@@ -1,0 +1,6 @@
+name: Custom Form
+description: 'Create custom form'
+package: Nian
+
+type: module
+core_version_requirement: ^8.8.0 || ^9

@@ -1,0 +1,16 @@
+<?php
+
+use Symfony\Component\HttpFoundation\RedirectResponse;
+
+
+function custom_form_cancelar(){
+
+  //$this->messenger()->addStatus($this->t('Operación cancelada'));
+  Drupal::messenger()->addError(t('Canceled process!!!'));      
+
+  global $base_url;
+  //dpm($base_url);
+  $response = new RedirectResponse($base_url);
+  $response->send();
+  return;
+}
